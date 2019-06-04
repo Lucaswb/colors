@@ -14,12 +14,15 @@ $(document).ready(function() {
   //   $("body").addClass("red-background");
   // });
   $("button#green").click(function() {
-  $("body").css("background-color", "green");
+    $("body").css("background-color", "green");
   });
   $("button#yellow").click(function() {
-  $("body").css("background-color", "yellow");
+    $("body").css("background-color", "yellow");
   });
   $("button#red").click(function() {
-  $("body").css("background-color", "red");
+    $("body").css("background-color", "red");
+  });
+  $("button#original").click(function() {
+    $("body").css("background-color", "white");
   });
 });
